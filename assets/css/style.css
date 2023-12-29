@@ -75,25 +75,27 @@ h2 {
 }
 
 /* *Hover Animation */
-/* #HOVER .number doesnt work */
+/* for white sites */
 .dive-black:hover {
   background-color: #000;
   color: #fff;
 }
 
-.dive-black:hover .number-white {
-  opacity: 0.1;
+.dive-black:hover ~ .number-white {
+  opacity: 1;
+  color: #000;
 }
-
+/* for black sites */
 .dive-white:hover {
   background-color: #fff;
   color: #000;
 }
 
-.dive-white:hover .number-black {
+.dive-white:hover ~ .number-black {
+  color: #fff;
   opacity: 1;
 }
-/* #HOVER .number doesnt work */
+
 /* *Classes article: text */
 
 .text {
@@ -236,7 +238,6 @@ h2 {
   font-family: WorkSans;
   font-size: 22px;
   color: #666;
-  font-weight: 400;
   line-height: 180%;
   letter-spacing: 0.22px;
   margin-bottom: 70px;
