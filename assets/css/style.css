@@ -1,0 +1,65 @@
+@font-face {
+  font-family: DidactGothic;
+  src: url(../fonts/DidactGothic/DidactGothic-Regular.ttf);
+}
+
+@font-face {
+  font-family: FjallaOne;
+  src: url(../fonts/FjallaOne/FjallaOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: WorkSans;
+  src: url(../fonts/WorkSans/WorkSans-Medium.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* *Header Styling */
+
+header p {
+  font-family: WorkSans;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto 60px auto;
+}
+
+h1 {
+  font-family: DidactGothic;
+  font-size: 100px;
+  text-align: center;
+  line-height: 130%;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  width: 700px;
+  margin: 0 auto 60px auto;
+}
+
+.man {
+  display: block;
+  width: 720px;
+  height: 1080px;
+  margin: 0 auto 118px auto;
+}
+
+h2 {
+  font-family: WorkSans;
+  font-size: 160px;
+  text-align: center;
+  font-weight: lighter;
+  margin: 0 auto 152px auto;
+}
+
+/* *Section 1 -  */
+
+.orbis {
+  background: url(../img/handshake.jpg) no-repeat center;
+  background-size: cover;
+  width: 100vw;
+  height: 90vh;
+}
