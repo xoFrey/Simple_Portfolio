@@ -74,6 +74,26 @@ h2 {
   padding: 16px 26px;
 }
 
+/* *Hover Animation */
+/* #HOVER .number doesnt work */
+.dive-black:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.dive-black:hover .number-white {
+  opacity: 0.1;
+}
+
+.dive-white:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.dive-white:hover .number-black {
+  opacity: 1;
+}
+/* #HOVER .number doesnt work */
 /* *Classes article: text */
 
 .text {
@@ -155,6 +175,7 @@ h2 {
   background-size: cover;
   height: 95vh;
   position: relative;
+  background-attachment: fixed;
 }
 
 /* *Section 2 - ROLLR */
@@ -164,6 +185,7 @@ h2 {
   background-size: cover;
   height: 100vh;
   position: relative;
+  background-attachment: fixed;
 }
 
 /* *Section 3 - GALITOS */
@@ -173,6 +195,7 @@ h2 {
   background-size: cover;
   height: 95vh;
   position: relative;
+  background-attachment: fixed;
 }
 
 /* *Section 4 - TRETTO */
@@ -182,6 +205,7 @@ h2 {
   background-size: cover;
   height: 100vh;
   position: relative;
+  background-attachment: fixed;
 }
 
 /* *Section 5 - More Info */
@@ -189,6 +213,7 @@ h2 {
 .info {
   background-color: #000;
   height: 100vh;
+  background-attachment: fixed;
 }
 
 .info h4 {
@@ -241,11 +266,5 @@ footer a {
   display: block;
   margin-bottom: 150px;
   text-decoration: none;
-  color: #000;
-}
-
-/* *Hover Animation */
-
-.dive-black:hover {
   color: #000;
 }
