@@ -11,7 +11,6 @@
 <ul>
 <li><samp>Semantic HTML5</samp></li>
 <li><samp>CSS custom properties</samp></li>
-<li><samp>Flexbox</samp></li>
 </ul>
 
 <hr/>
@@ -20,6 +19,7 @@
 <ul>
 <li><samp>Responsive for desktop and tablet</samp></li>
 <li><samp>Parallax effect</samp></li>
+<li><samp>Flexbox</samp></li>
 </ul>
 
 
