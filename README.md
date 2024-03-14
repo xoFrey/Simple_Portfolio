@@ -14,6 +14,15 @@
 <li><samp>Flexbox</samp></li>
 </ul>
 
+<hr/>
+
+<h3><samp>Features:</samp></h3>
+<ul>
+<li><samp>Responsive for desktop and tablet</samp></li>
+<li><samp>Paralax effect</samp></li>
+</ul>
+
+
 
 
 <h2><samp>Screenshot</samp></h2>
