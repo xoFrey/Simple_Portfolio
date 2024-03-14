@@ -20,12 +20,17 @@
 }
 
 /* *Header Styling */
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 header p {
   font-family: WorkSans, sans-serif;
   font-size: 1.25rem;
-  text-align: center;
-  padding: 20px;
+  padding: 2vw;
   margin: 0 auto 60px auto;
 }
 
@@ -36,14 +41,14 @@ h1 {
   line-height: 130%;
   letter-spacing: -2px;
   text-transform: uppercase;
-  width: 700px;
+  width: 7ch;
   margin: 0 auto 60px auto;
 }
 
 .man {
   display: block;
-  width: 720px;
-  height: 1080px;
+  width: 80%;
+  /* height: 1080px; */
   margin: 0 auto 118px auto;
 }
 
@@ -216,22 +221,28 @@ h2 {
   background-color: #000;
   height: 100vh;
   background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 20vw;
+  padding-bottom: 200px;
 }
 
 .info h4 {
   font-family: WorkSans, sans-serif;
-  font-size: 180px;
+  font-size: clamp(2rem, 13vw, 180px);
   letter-spacing: -18px;
   color: #fff;
-  text-align: center;
   font-weight: lighter;
   padding-top: 130px;
   margin-bottom: 150px;
+  width: 10ch;
+  text-align: center;
 }
 
 .info-text {
-  width: 700px;
-  margin: 0 7vw 70px auto;
+  margin-left: 20vw;
 }
 
 .info-text p {
@@ -245,7 +256,7 @@ h2 {
 
 .info-text a {
   font-family: WorkSans, sans-serif;
-  font-size: 60px;
+  font-size: clamp(2rem, 5vw, 60px);
   font-weight: lighter;
   letter-spacing: -3.6px;
   color: #fff;
@@ -255,15 +266,17 @@ h2 {
 /* *Footer */
 
 footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 150vh;
-  padding: 230px;
+  padding: 10vw;
 }
 
 footer a {
   font-family: DidactGothic, sans-serif;
-  font-size: 10rem;
+  font-size: clamp(0.73125rem, -2.5324rem + 13.9249vw, 10rem);
   font-weight: lighter;
-  text-align: center;
   display: block;
   margin-bottom: 150px;
   text-decoration: none;
