@@ -19,7 +19,7 @@
 <h3><samp>Features:</samp></h3>
 <ul>
 <li><samp>Responsive for desktop and tablet</samp></li>
-<li><samp>Paralax effect</samp></li>
+<li><samp>Parallax effect</samp></li>
 </ul>
 
 
