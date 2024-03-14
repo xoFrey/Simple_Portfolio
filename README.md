@@ -10,7 +10,7 @@
 </ul>
 
 
-[<img src="./assets/img/github-mark-white.png" width="30">](https://github.com/xoFrey)
+[<img src="./assets/img/github-mark-white.svg" width="30">](https://github.com/xoFrey)
 
 <h2>Screenshot</h2>
 
