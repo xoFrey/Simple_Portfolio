@@ -9,9 +9,8 @@
 <li><samp>Flexbox</samp></li>
 </ul>
 
-![](./assets/img/github-mark-white.svg)
 
-[<img src="./assets/img/github-mark-white.png">](https://github.com/xoFrey)
+[<img src="./assets/img/github-mark-white.svg">](https://github.com/xoFrey)
 
 <h2>Screenshot</h2>
 
