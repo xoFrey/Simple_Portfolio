@@ -19,7 +19,7 @@
 <h2><samp>Screenshot</samp></h2>
 
 <p align="center">
-<img  src="./assets/img/Screenshot1.png"/> <img  src="./assets/img/screenshot2.png"/>
+<img  src="./assets/img/Screenshot.png"/>
   
 </p>
 
